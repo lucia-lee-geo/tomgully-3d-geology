@@ -62,5 +62,5 @@ Result on the test deposit: spherical model, sill 7.76, ranges (E,N,vertical) = 
    *magnitude* estimate, not the full deposit resource.
 
 Full scripts, data provenance and boundary statements are in the project repository
-(see the linked README). Formal JORC classification still requires a Competent Person sign-off —
-scripts do not replace that.
+https://github.com/lucia-lee-geo/tomgully-3d-geology. Formal JORC classification still requires
+a Competent Person sign-off — scripts do not replace that.

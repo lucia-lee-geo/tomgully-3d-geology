@@ -1,7 +1,7 @@
 # 用开源 Python 栈复刻 Leapfrog：三维地质建模与储量估算全流程（0 元成本）
 
 > 发布平台：稀土掘金 · 分类：数据工程 / 科学计算
-> 配套仓库：见 README（pipeline/ 五段脚本可复跑）
+> 配套仓库：https://github.com/lucia-lee-geo/tomgully-3d-geology （pipeline/ 五段脚本可复跑）
 
 ## 一句话
 
@@ -10,6 +10,8 @@
 同样的主链路**——从政府开放数据落地，到孔斜校正、变差函数、克里金、块体模型、吨位×品位。
 
 我把真实矿区（澳大利亚北领地 Tom's Gully 金矿）的公开数据完整跑了一遍，把结果和踩的坑都写在这。
+
+![Tom's Gully 块体模型（10×10×5 m，普通克里金）](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/5c62d02a5a7448cb9f876ab5f429ae02~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgTFVDSUFMRUU=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDM1MTI0MjIwODgyMTA2NiJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1794819553&x-orig-sign=TPfaktDfvBXbkh0csuPSjKKXYvI%3D)
 
 ## 为什么要做这件事
 
@@ -93,4 +95,5 @@ gst.kriging(db, grid, mo, gst.NeighMoving.create(True, 8, 40.0))
 开源栈能不能替代商业矿业软件？**方法上能，交付上要分场景**：初步建模、量级估算、教学、
 数据治理——开源完全够用且更可审计；正式资源报告出图——仍需商业软件或合资格人把关。
 
-代码、数据、结果全在仓库里，欢迎复现和挑错。
+代码、数据、结果全在仓库里，欢迎复现和挑错：
+**https://github.com/lucia-lee-geo/tomgully-3d-geology**

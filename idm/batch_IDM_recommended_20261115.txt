@@ -1,0 +1,3 @@
+https://ftp-minerals.nt.gov.au/ntgs-data/?download&weblink=fe5289165148d151bd7b2193944a7088&realfilename=DIP043.zip
+https://ftp-minerals.nt.gov.au/?download&weblink=cc0d4a95e9c0109bb80cee9453c90d44&realfilename=NT-wide-gravity-grids.zip
+https://ftp-minerals.nt.gov.au/?download&weblink=35b813106e6d34ed759d129350706efb&realfilename=NTGS-DIP047.zip
